@@ -5,17 +5,36 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
-    "test": "nyc ava",
+    "clean": "rimraf lib",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
-    "clean": "rimraf lib"
+    "prepublish": "npm run clean && npm run test && npm run build",
+    "test": "nyc ava"
   },
   "ava": {
     "require": [
       "babel-register"
     ]
   },
+  "files": [
+    "lib"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "author": "Zach Orlovsky <sadorlovsky@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sadorlovsky/kinopoisk-api.git"
+  },
+  "keywords": [
+    "kinopoisk",
+    "api"
+  ],
+  "bugs": {
+    "url": "https://github.com/sadorlovsky/kinopoisk-api/issues"
+  },
+  "homepage": "https://github.com/sadorlovsky/kinopoisk-api",
   "dependencies": {
     "node-fetch": "^1.5.0"
   },
