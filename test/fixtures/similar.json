@@ -1,0 +1,118 @@
+{
+  "items": [
+    [{
+      "type": "KPFilm",
+      "id": "255129",
+      "nameRU": "Звездный путь",
+      "nameEN": "Star Trek",
+      "year": "2009",
+      "rating": "7.8 (97 040)",
+      "posterURL": "film_iphone/iphone60_255129.jpg",
+      "filmLength": "2:07",
+      "country": "США, Германия",
+      "genre": "фантастика, боевик, приключения",
+      "filmTypeText": "Похожие фильмы"
+    }, {
+      "type": "KPFilm",
+      "id": "689066",
+      "nameRU": "Стражи Галактики",
+      "nameEN": "Guardians of the Galaxy",
+      "year": "2014",
+      "rating": "7.8 (155 205)",
+      "posterURL": "film_iphone/iphone60_689066.jpg",
+      "filmLength": "2:01",
+      "country": "США, Великобритания",
+      "genre": "фантастика, боевик, приключения",
+      "filmTypeText": "Похожие фильмы",
+      "videoURL": "http://kp.cdn.yandex.net/trailers/689066/kinopoisk.ru-Guardians-of-the-Galaxy-199625_andr.mp4"
+    }, {
+      "type": "KPFilm",
+      "id": "251733",
+      "nameRU": "Аватар",
+      "nameEN": "Avatar",
+      "year": "2009",
+      "rating": "8.0 (291 339)",
+      "posterURL": "film_iphone/iphone60_251733.jpg",
+      "filmLength": "2:42",
+      "country": "США, Великобритания",
+      "genre": "фантастика, боевик, драма",
+      "filmTypeText": "Похожие фильмы",
+      "videoURL": "http://kp.cdn.yandex.net/trailers/251733/kinopoisk.ru-Avatar-42260_andr.mp4"
+    }, {
+      "type": "KPFilm",
+      "id": "77540",
+      "nameRU": "Джон Картер",
+      "nameEN": "John Carter",
+      "year": "2012",
+      "rating": "7.0 (78 332)",
+      "posterURL": "film_iphone/iphone60_77540.jpg",
+      "filmLength": "2:12",
+      "country": "США",
+      "genre": "фантастика, фэнтези, боевик",
+      "filmTypeText": "Похожие фильмы",
+      "videoURL": "http://kp.cdn.yandex.net/trailers/77540/kinopoisk.ru-John-Carter-96349_andr.mp4"
+    }, {
+      "type": "KPFilm",
+      "id": "455165",
+      "nameRU": "Стартрек: Возмездие",
+      "nameEN": "Star Trek Into Darkness",
+      "year": "2013",
+      "rating": "7.7 (89 877)",
+      "posterURL": "film_iphone/iphone60_455165.jpg",
+      "filmLength": "2:03",
+      "country": "США",
+      "genre": "фантастика, боевик, приключения",
+      "filmTypeText": "Похожие фильмы",
+      "videoURL": "http://kp.cdn.yandex.net/trailers/455165/kinopoisk.ru-Star-Trek-Into-Darkness-154594_andr.mp4"
+    }, {
+      "type": "KPFilm",
+      "id": "2882",
+      "nameRU": "Дюна",
+      "nameEN": "Dune",
+      "year": "1984",
+      "rating": "7.0 (12 233)",
+      "posterURL": "film_iphone/iphone60_2882.jpg",
+      "filmLength": "2:17",
+      "country": "США",
+      "genre": "фантастика, боевик, приключения",
+      "filmTypeText": "Похожие фильмы",
+      "videoURL": "http://kp.cdn.yandex.net/trailers/2882/kinopoisk.ru-Dune-86556_andr.mp4"
+    }, {
+      "type": "KPFilm",
+      "id": "178720",
+      "nameRU": "Светлячок (сериал)",
+      "nameEN": "Firefly",
+      "year": "2002-2003",
+      "rating": "8.7 (28 354)",
+      "posterURL": "film_iphone/iphone60_178720.jpg",
+      "filmLength": "0:42",
+      "country": "США",
+      "genre": "фантастика, боевик, драма",
+      "filmTypeText": "Похожие фильмы"
+    }, {
+      "type": "KPFilm",
+      "id": "6528",
+      "nameRU": "Звездный путь: Фильм",
+      "nameEN": "Star Trek: The Motion Picture",
+      "year": "1979",
+      "rating": "7.2 (3 049)",
+      "posterURL": "film_iphone/iphone60_6528.jpg",
+      "filmLength": "2:23",
+      "country": "США",
+      "genre": "фантастика, триллер, детектив",
+      "filmTypeText": "Похожие фильмы"
+    }, {
+      "type": "KPFilm",
+      "id": "2656",
+      "nameRU": "Пятый элемент",
+      "nameEN": "The Fifth Element",
+      "year": "1997",
+      "rating": "8.1 (236 434)",
+      "posterURL": "film_iphone/iphone60_2656.jpg",
+      "filmLength": "2:06",
+      "country": "Франция",
+      "genre": "фантастика, боевик, триллер",
+      "filmTypeText": "Похожие фильмы"
+    }]
+  ]
+}

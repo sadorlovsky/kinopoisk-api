@@ -1,0 +1,14 @@
+{
+  "cityID": "1",
+  "cityName": "Москва",
+  "seanceURL": "http://www.kinopoisk.ru/level/8/film/333/tc/1/",
+  "filmID": "333",
+  "nameRU": "Звёздные войны: Эпизод 4 – Новая надежда",
+  "nameEN": "Star Wars",
+  "year": "1977",
+  "rating": "8.1 (107 848)",
+  "posterURL": "film_iphone/iphone60_333.jpg",
+  "filmLength": "2:01",
+  "country": "США",
+  "genre": "фантастика, фэнтези, боевик"
+}
