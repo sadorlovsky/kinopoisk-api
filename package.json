@@ -2,7 +2,7 @@
   "name": "kinopoisk-api",
   "version": "0.1.0",
   "description": "Unofficial API Wrapper for kinopoisk.ru",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "babel src -d lib",
     "clean": "rimraf lib",

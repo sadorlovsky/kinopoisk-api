@@ -1,7 +1,7 @@
 import path from 'path'
 import test from 'ava'
 import nock from 'nock'
-import * as kinopoisk from '../src/index'
+import * as kinopoisk from '../src/kinopoisk-api'
 
 const filmID = 333
 const scope = nock('http://api.kinopoisk.cf')
