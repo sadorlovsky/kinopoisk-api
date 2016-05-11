@@ -70,8 +70,10 @@ test('search films', async t => {
   scope
     .get('/searchFilms')
     .query({ keyword: 'star,wars' })
+    .times(2)
     .replyWithFile(200, path.join(__dirname, 'fixtures', 'search.json'))
 
-  const result = await kinopoisk.searchFilms(['star', 'wars'])
-  t.truthy(result)
+  const result1 = await kinopoisk.searchFilms(['star', 'wars'])
+  const result2 = await kinopoisk.searchFilms('star', 'wars')
+  t.deepEqual(result1, result2)
 })

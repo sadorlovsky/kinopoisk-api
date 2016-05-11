@@ -1,4 +1,5 @@
 import fetch from 'node-fetch'
+import flatten from 'lodash.flatten'
 
 const api = 'http://api.kinopoisk.cf'
 const f = uri => fetch(`${api}/${uri}`).then(res => res.json())
@@ -27,6 +28,6 @@ export function getSeance (filmID) {
   return f(`getSeance?filmID=${filmID}`)
 }
 
-export function searchFilms (keywords) {
-  return f(`searchFilms?keyword=${keywords.join(',')}`)
+export function searchFilms (...keywords) {
+  return f(`searchFilms?keyword=${flatten(keywords).join(',')}`)
 }
