@@ -1,6 +1,6 @@
 {
   "name": "kinopoisk-api",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Unofficial API Wrapper for kinopoisk.ru",
   "main": "index.js",
   "scripts": {
