@@ -103,3 +103,14 @@ test('search films', async t => {
   const result2 = await kinopoisk.searchFilms('star', 'wars')
   t.deepEqual(result1, result2)
 })
+
+test('get today films', async t => {
+  const fixturePath = path.join(__dirname, 'fixtures', 'todayFilms.json')
+  scope
+    .get('/getTodayFilms')
+    .replyWithFile(200, fixturePath)
+
+  const expected = await fs.readFile(fixturePath, { encoding: 'utf8' })
+  const films = await kinopoisk.getTodayFilms()
+  t.deepEqual(films, JSON.parse(expected))
+})

@@ -35,3 +35,7 @@ export function getSeance (filmID) {
 export function searchFilms (...keywords) {
   return f(`searchFilms?keyword=${flatten(keywords).join(',')}`)
 }
+
+export function getTodayFilms () {
+  return f('getTodayFilms')
+}
