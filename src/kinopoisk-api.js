@@ -24,6 +24,10 @@ export function getReviews (filmID) {
   return f(`getReviews?filmID=${filmID}`)
 }
 
+export function getReviewDetail (reviewID) {
+  return f(`getReviewDetail?reviewID=${reviewID}`)
+}
+
 export function getSeance (filmID) {
   return f(`getSeance?filmID=${filmID}`)
 }

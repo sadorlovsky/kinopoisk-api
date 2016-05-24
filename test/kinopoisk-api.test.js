@@ -56,6 +56,16 @@ test('get reviews', async t => {
   t.truthy(reviews)
 })
 
+test('get full review', async t => {
+  scope
+    .get('/getReviewDetail')
+    .query({ reviewID: 2341463 })
+    .replyWithFile(200, path.join(__dirname, 'fixtures', 'detailReview.json'))
+
+  const fullReview = await kinopoisk.getReviewDetail(2341463)
+  t.truthy(fullReview)
+})
+
 test('get seance', async t => {
   scope
     .get('/getSeance')
