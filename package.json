@@ -38,11 +38,11 @@
   "homepage": "https://github.com/sadorlovsky/kinopoisk-api",
   "dependencies": {
     "lodash.flatten": "^4.2.0",
-    "node-fetch": "^1.5.2"
+    "node-fetch": "^1.5.3"
   },
   "devDependencies": {
     "@sadorlovsky/eslint-config": "^0.8.1",
-    "ava": "^0.14.0",
+    "ava": "^0.15.0",
     "babel-cli": "^6.9.0",
     "babel-eslint": "^6.0.4",
     "babel-preset-es2015": "^6.9.0",
