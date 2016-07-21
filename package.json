@@ -38,6 +38,7 @@
   },
   "homepage": "https://github.com/sadorlovsky/kinopoisk-api",
   "dependencies": {
+    "got": "^6.3.0",
     "lodash.flatten": "^4.2.0",
     "node-fetch": "^1.5.3"
   },

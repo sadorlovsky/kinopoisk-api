@@ -1,8 +1,8 @@
-import fetch from 'node-fetch'
+import got from 'got'
 import flatten from 'lodash.flatten'
 
 const api = 'http://api.kinopoisk.cf'
-const f = uri => fetch(`${api}/${uri}`).then(res => res.json())
+const f = uri => got(`${api}/${uri}`, { json: true }).then(res => res.body)
 
 export function getFilm (filmID) {
   return f(`getFilm?filmID=${filmID}`)
