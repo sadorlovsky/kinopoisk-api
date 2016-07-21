@@ -1,8 +1,10 @@
 import got from 'got'
+import mem from 'mem'
 import flatten from 'lodash.flatten'
 
 const api = 'http://api.kinopoisk.cf'
-const f = uri => got(`${api}/${uri}`, { json: true }).then(res => res.body)
+const memgot = mem(got, { maxAge: 1000 })
+const f = uri => memgot(`${api}/${uri}`, { json: true }).then(res => res.body)
 
 export function getFilm (filmID) {
   return f(`getFilm?filmID=${filmID}`)

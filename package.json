@@ -40,7 +40,7 @@
   "dependencies": {
     "got": "^6.3.0",
     "lodash.flatten": "^4.2.0",
-    "node-fetch": "^1.5.3"
+    "mem": "^0.1.1"
   },
   "devDependencies": {
     "@sadorlovsky/eslint-config": "^0.8.1",
