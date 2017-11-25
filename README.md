@@ -1,3 +1,9 @@
+# DEPRECATED
+
+The unofficial API shut down therefore this module is no longer working 😔
+
+---
+
 # Unofficial API Wrapper for kinopoisk.ru
 
 [![Build Status](https://travis-ci.org/sadorlovsky/kinopoisk-api.svg?branch=master)](https://travis-ci.org/sadorlovsky/kinopoisk-api)
